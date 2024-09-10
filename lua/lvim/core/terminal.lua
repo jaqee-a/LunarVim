@@ -66,7 +66,7 @@ local function get_buf_size()
 end
 
 --- Get the dynamic terminal size in cells
----@param direction number
+---@param direction string
 ---@param size number
 ---@return integer
 local function get_dynamic_terminal_size(direction, size)
